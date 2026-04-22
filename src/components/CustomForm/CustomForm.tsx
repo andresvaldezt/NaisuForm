@@ -13,7 +13,8 @@ export default function CustomForm(){
             email: "",
             password: "",
             confirmPassword: ""
-        }
+        },
+        mode: "onBlur"
     })
 
     const onSubmit: SubmitHandler<FormValues> = (data) => {
