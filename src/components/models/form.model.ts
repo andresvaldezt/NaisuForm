@@ -11,4 +11,4 @@ export const schema = z.object({
     path: ['confirmPassword']
 })
 
-export type FormValues = z.Infer<typeof schema>
+export type FormValues = z.infer<typeof schema>
